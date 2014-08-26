@@ -27,4 +27,4 @@ Notes
 
 License
 -------------
-The jquery-scrollToggleClass Plugin is licensed under the MIT license. See the LICENSE file for full details.
+The jquery-scrollToggleClass Plugin is licensed under the MIT license.
