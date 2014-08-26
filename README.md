@@ -1,7 +1,7 @@
 jquery-scrollToggleClass
 ========================
 
-A very very small plugin for adding and removing classes to an element wheter you scroll up or down. Very useful for adjusting size on fixed navs.
+A very very small plugin for adding and removing classes to an element wheter you scroll up or down. Very useful for adjusting size on fixed navs. Requires jQuery 1.7 or newer.
 
 Example Usage
 -------------
