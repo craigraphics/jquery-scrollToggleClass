@@ -1,3 +1,11 @@
+/*
+ * jquery-scrollToggleClass v1.0
+ * https://github.com/craigraphics/jquery-scrollToggleClass
+ * 
+ * Copyright 2014, William Craig
+ * Dual licensed under the MIT or GPL version 2 licenses.
+ */
+
 'use strict';
 
 (function ($) {
