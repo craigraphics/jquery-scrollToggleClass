@@ -1,5 +1,5 @@
 {
-  "name": "jquery-scrollToggleClass",
+  "name": "scroll-toggle-class",
   "version": "1.0.0",
   "dependencies": {
     "jquery": ">=1.7"
