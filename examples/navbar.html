@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scroll toggle example navbar</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style>
+      body {
+        padding-top: 150px;
+      }
+
+      .nav { 
+        background:black; color:white; height:90px; padding:20px; position:fixed; top:0; width:100%; box-sizing:border-box; transition: all 0.3s ease; 
+      }
+
+      .nav h3 { 
+        margin: 0; padding:0;  color:red; line-height:1.8em; transition: all 0.3s ease;
+      }
+
+      .content { 
+        margin-bottom: 700px;
+      }
+
+      p { 
+        margin:60px; font-size: 1.5em;
+      }
+
+      /* classes added when scrolled down */
+      .nav.scroll-down {
+          height:40px; line-height:.2em;
+      }
+
+      .nav.scroll-down h3 {
+        line-height:.0em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav"><h3>brand</h3></nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum velit ligula, et vulputate felis finibus sed. Sed sem massa, vestibulum eget nulla non, lacinia fermentum sem. Etiam congue, justo id fringilla pulvinar, diam nibh tincidunt felis, eget ultricies metus nisl at dolor. Maecenas ultrices erat a tortor consectetur bibendum. Curabitur at lorem eget enim lacinia vestibulum nec in diam. Maecenas sem mauris, bibendum in porttitor et, viverra eget metus. Vestibulum in dictum ex, sed aliquam urna. Vestibulum feugiat, risus scelerisque volutpat vehicula, sem nulla tristique odio, a pulvinar lectus ligula a turpis. Aenean laoreet tincidunt lorem, nec pretium orci condimentum ut. Sed in semper ante.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum velit ligula, et vulputate felis finibus sed. Sed sem massa, vestibulum eget nulla non, lacinia fermentum sem. Etiam congue, justo id fringilla pulvinar, diam nibh tincidunt felis, eget ultricies metus nisl at dolor. Maecenas ultrices erat a tortor consectetur bibendum. Curabitur at lorem eget enim lacinia vestibulum nec in diam. Maecenas sem mauris, bibendum in porttitor et, viverra eget metus. Vestibulum in dictum ex, sed aliquam urna. Vestibulum feugiat, risus scelerisque volutpat vehicula, sem nulla tristique odio, a pulvinar lectus ligula a turpis. Aenean laoreet tincidunt lorem, nec pretium orci condimentum ut. Sed in semper ante.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum velit ligula, et vulputate felis finibus sed. Sed sem massa, vestibulum eget nulla non, lacinia fermentum sem. Etiam congue, justo id fringilla pulvinar, diam nibh tincidunt felis, eget ultricies metus nisl at dolor. Maecenas ultrices erat a tortor consectetur bibendum. Curabitur at lorem eget enim lacinia vestibulum nec in diam. Maecenas sem mauris, bibendum in porttitor et, viverra eget metus. Vestibulum in dictum ex, sed aliquam urna. Vestibulum feugiat, risus scelerisque volutpat vehicula, sem nulla tristique odio, a pulvinar lectus ligula a turpis. Aenean laoreet tincidunt lorem, nec pretium orci condimentum ut. Sed in semper ante.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum velit ligula, et vulputate felis finibus sed. Sed sem massa, vestibulum eget nulla non, lacinia fermentum sem. Etiam congue, justo id fringilla pulvinar, diam nibh tincidunt felis, eget ultricies metus nisl at dolor. Maecenas ultrices erat a tortor consectetur bibendum. Curabitur at lorem eget enim lacinia vestibulum nec in diam. Maecenas sem mauris, bibendum in porttitor et, viverra eget metus. Vestibulum in dictum ex, sed aliquam urna. Vestibulum feugiat, risus scelerisque volutpat vehicula, sem nulla tristique odio, a pulvinar lectus ligula a turpis. Aenean laoreet tincidunt lorem, nec pretium orci condimentum ut. Sed in semper ante.</p>  
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../jquery-scroll-toggle-class.js"></script>
+    <script>
+    $(function(){
+      $('.nav').scrollToggleClass();
+    });
+    </script>
+    
+  </body>
+</html>
